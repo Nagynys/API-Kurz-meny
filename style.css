@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    background-color: lightgray;
+    font-size: 25px;
+}
+
+/* Hlavní nadpis */
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: rgb(150, 1, 1);
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 25px 0;
+}
+
+
+/* Hlavní strana */
+#banka,
+#den {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+#den {
+    margin-bottom: 20px;
+}
+
+.mena {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mena td {
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+
+/* Query media */
+@media(max-width: 500px) {
+    body {
+        margin-top: 25px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
